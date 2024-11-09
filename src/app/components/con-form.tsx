@@ -57,10 +57,8 @@ export function Form() {
                   <SelectItem value="United">United States</SelectItem>
                   <SelectItem value="England">England</SelectItem>
                   <SelectItem value="Canada">Canada</SelectItem>
-                  <SelectItem value="England">England</SelectItem>
                   <SelectItem value="sveltekit">Nepal</SelectItem>
                   <SelectItem value="astro">West Indies</SelectItem>
-                  <SelectItem value="nuxt">South koria</SelectItem>
                 </SelectContent>
               </Select>
             </div>
