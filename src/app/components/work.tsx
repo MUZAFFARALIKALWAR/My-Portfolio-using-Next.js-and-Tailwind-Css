@@ -4,16 +4,16 @@ import Link from "next/link";
 
 export default function Work(){
     return(
-        <main className="w-full h-full md:h-full  bg-white flex justify-center items-center my-20 max-w-screen-2xl mx-auto p-5 pb-12 ">
+        <main className="w-full h-full md:h-full  bg-white flex flex-col justify-center items-center mb-10  max-w-screen-2xl mx-auto p-5 pb-12 ">
             <div className="w-full h-full md:w-[90%] lg:w-full  md:h-[80%] flex flex-col justify-start items-center gap-y-10">
                         <div className="flex flex-col justify-center items-center ">
                             <div className="bg-gray-200  text-gray-500 w-[75px] h-[30px] rounded-xl flex justify-center items-center ">Work</div>
-                             <p className="text-gray-500 font-serif pt-4 text-sm md:text-lg">The skills, tools and technologies I am really good at:</p>
+                             <p className="text-gray-500 font-serif pt-4 text-center text-xs  md:text-lg">The skills, tools and technologies I am really good at:</p>
                         </div> 
                         {/* box 1*/}
                       <div className="w-full h-full  lg:w-[900px] xl:w-[900px] 2xl:w-[61%]  flex flex-col lg:flex-row  justify-between items-center lg:items-start  bg-white rounded-lg shadow-lg ">
                         {/* left side */}
-                           <div className="w-[90%] h-full md:w-[450px] lg:h-[400px] bg-gray-100 flex justify-center items-center ">
+                           <div className="w-[90%] h-full md:w-[450px] lg:h-[400px] bg-gray-100 flex justify-center pl-6 md:pl-0 items-center ">
                            <Link href={"https://e-commerce-website-muzaffar-ali.vercel.app/"}>
                            <Image src={"/images/e-commerce.png"}
                             width={200}
@@ -42,7 +42,7 @@ export default function Work(){
                 {/* box 2 */}
                 <div className="w-full h-full  lg:w-[900px] xl:w-[900px] 2xl:w-[61%]  flex flex-col lg:flex-row  justify-between items-center lg:items-start  bg-white rounded-lg shadow-lg ">
                         {/* left side */}
-                           <div className="w-[90%] h-full md:w-[450px] lg:h-[400px] bg-gray-100 flex justify-center items-center ">
+                           <div className="w-[90%] h-full md:w-[450px] lg:h-[400px] bg-gray-100 pl-6 md:pl-0 flex justify-center items-center ">
                            <Link href={"https://personal-website-muzaffar-ali.vercel.app/"}>
                            <Image src={"/images/personal.svg"}
                             width={200}
@@ -72,7 +72,7 @@ export default function Work(){
                 {/* box 3 */}
                 <div className="w-full h-full  lg:w-[900px] xl:w-[900px] 2xl:w-[61%]  flex flex-col lg:flex-row  justify-between items-center lg:items-start  bg-white rounded-lg shadow-lg ">
                         {/* left side */}
-                           <div className="w-[90%] h-full md:w-[450px] lg:h-[400px] bg-gray-100 flex justify-center items-center ">
+                           <div className="w-[90%] h-full md:w-[450px] lg:h-[400px] bg-gray-100  pl-6 md:pl-0 flex justify-center items-center ">
                            <Link href={"https://clone-kamran-tessori-com.vercel.app/"}>
                            <Image src={"/images/kamran-tessori.png"}
                             width={200}
@@ -102,6 +102,12 @@ export default function Work(){
 
 
             </div>
+            
+            <Link href={"https://youtube.com/playlist?list=PLEVYFExxwxmNAADKjsQiiftdlYUIrVDgR&si=Y90OgpbKZgVPMikY"}
+            className="md:text-xl font-sans mt-8 text-blue-500 flex"
+            >View More Projects On My Channel<ExternalLink className="ml-2"/> </Link>
+            
+           
         </main>
     )
 }

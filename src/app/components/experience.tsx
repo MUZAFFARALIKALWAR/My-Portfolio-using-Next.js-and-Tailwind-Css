@@ -2,11 +2,11 @@
 
 export default function Experience(){
     return(
-        <main className="w-full h-full  flex justify-center items-center my-20 max-w-screen-2xl mx-auto p-5 pb-12">
+        <main className="w-full h-full  flex justify-center items-center my-10 md:my-20 max-w-screen-2xl mx-auto p-5 pb-12">
             <div className="w-full md:w-[90%] h-[80%]  flex flex-col justify-start items-center gap-y-10">
                         <div className="flex flex-col justify-center items-center ">
                             <div className="bg-gray-200  text-gray-500 w-[100px] h-[30px] rounded-xl flex justify-center items-center ">Experience</div>
-                             <p className="text-gray-500 font-serif pt-4 text-sm md:text-lg">Here is a quick summary of my most recent experiences:</p>
+                             <p className="text-gray-500 font-serif pt-4 text-center text-xs  md:text-lg">Here is a quick summary of my most recent experiences:</p>
                         </div> 
                       <div className="rounded-xl shadow-md w-full h-full md:w-[800px] lg:w-[800px] xl:w-[800px] bg-white  flex flex-col justify-start items-start md:items-center p-5 pl-8">
                        <div className="w-full flex flex-col md:flex-row justify-between items-start md:items-center gap-y-2">

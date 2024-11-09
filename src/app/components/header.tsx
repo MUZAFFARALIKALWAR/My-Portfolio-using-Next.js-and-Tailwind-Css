@@ -22,10 +22,10 @@ export default function Header(){
                 <li className="space-x-5">
                   <Link href={"/"}>Home</Link>
                   <Link href={"/about"}>About</Link>
+                  <Link href={"/projects"}>Projects</Link>
                   <Link href={"/contact"}>Contact</Link>
                   <button className="bg-slate-950 px-5 py-2 rounded-[10px] text-white font-[400] transition-transform duration-500 hover:scale-105">Download CV</button>
                 </li>
-               
             </ul>
            
             
@@ -40,6 +40,7 @@ export default function Header(){
                 <li className="flex flex-col space-y-6">
                   <Link href={"/"}>Home</Link>
                   <Link href={"/about"}>About</Link>
+                  <Link href={"/projects"}>Projects</Link>
                   <Link href={"/contact"}>Contact</Link>
                   <button className="bg-slate-900  py-2 rounded-[10px] text-white font-[400] ">Download CV</button>
                 </li>

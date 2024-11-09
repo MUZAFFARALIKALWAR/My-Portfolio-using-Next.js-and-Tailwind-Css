@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export default function Skill(){
     return(
-        <main className="w-full h-full md:h-full  bg-white flex justify-center items-center my-20 max-w-screen-2xl mx-auto p-5 pb-12">
-            <div className="w-[90%] h-[80%] flex flex-col justify-start items-center gap-y-10">
-                        <div className="flex flex-col justify-center items-center ">
+        <main className="w-full h-full md:h-full  bg-white flex justify-center items-center my-10 md:my-20 max-w-screen-2xl mx-auto p-5 pb-12">
+            <div className="w-[100%] md:w-[90%] h-[80%] flex flex-col justify-start items-center gap-y-10">
+                        <div className=" flex flex-col justify-center items-center ">
                             <div className="bg-gray-200  text-gray-500 w-[75px] h-[30px] rounded-xl flex justify-center items-center ">Skills</div>
-                             <p className="text-gray-500 font-serif pt-4 text-sm md:text-lg">The skills, tools and technologies I am really good at:</p>
+                             <p className="text-gray-500 font-serif pt-4 text-center text-xs md:text-lg">The skills, tools and technologies I am really good at:</p>
                         </div> 
                       <div className=" flex flex-wrap justify-center items-center gap-y-8 gap-x-5 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 2xl:gap-x-28">
                      

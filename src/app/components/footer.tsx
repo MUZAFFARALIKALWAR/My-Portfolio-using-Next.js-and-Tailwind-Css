@@ -12,7 +12,7 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 
 export default function Footer(){
     return(
-        <footer className="w-full h-[500px] flex flex-col justify-center items-center max-w-screen-2xl mx-auto">
+        <footer className="w-full h-[470px] flex flex-col justify-center items-center max-w-screen-2xl mx-auto">
         <div className="w-full p-5 h-[90%] space-y-5 bg-white flex flex-col justify-start items-center">
          <div className="bg-gray-200  text-gray-500 w-[100px] h-[30px] rounded-xl flex justify-center items-center ">Get in touch</div>
          <p className="text-gray-500 font-serif pt-4 text-sm md:text-lg">What&apos;s next? Feel free to reach out to me if you&apos;re looking for a developer, have a query, or simply want to connect.</p>
@@ -30,7 +30,7 @@ export default function Footer(){
             </span>
 
         </div>
-          <div className="flex items-center justify-center py-5"><Copyright /><span className="text-sm ml-3">2024 | Designed and coded with ❤️️ by Muzaffar Ali</span></div>
+          <div className="flex items-center justify-center py-3"><Copyright className="text-xs md:text-sm"/><span className="text-xs md:text-sm ml-3">2024 | Designed and coded with ❤️️ by Muzaffar Ali</span></div>
 
         </footer>
     )
