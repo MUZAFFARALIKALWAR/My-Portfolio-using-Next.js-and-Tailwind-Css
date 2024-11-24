@@ -22,6 +22,7 @@ body{
   /* animation-fill-mode: backwards; */
   animation-direction: alternate;
 }
+
 @media screen and (min-width:0px) and (max-width:750px) {
   
 @keyframes lineanime {
@@ -55,114 +56,4 @@ body{
   }
 } 
 }
-  /* box animation */
-@media screen and (min-width:0px) and (max-width:750px){
-
-.box-animation{
-  animation-name: move;
-  animation-duration: 10s;
-  animation-delay: 3s;
-  animation-fill-mode: backwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-@keyframes move {
-  0%{
-     left: 0px;
-     top: 0px;
-     background-color: gray;
-     rotate: 0deg;
-  } 
-  100%{
-    left: 42%;
-    top: 0px;
-    background-color: black;
-    /* rotate: 360deg; */
-  }
-
-} 
-}
-/* box animation */
-@media screen and (min-width:750px){
-.box-animation{
-  animation-name: move;
-  animation-duration: 10s;
-  animation-delay: 3s;
-  animation-fill-mode: backwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-@keyframes move {
-  0%{
-     left: 0px;
-     top: 0px;
-     background-color: gray;
-     rotate: 0deg;
-  } 
-  100%{
-    left: 83%;
-    top: 0px;
-    background-color: black;
-    /* rotate: 360deg; */
-  }
-
-} }
-
-/* BOX2 */
- /* box animation */
- @media screen and (min-width:0px) and (max-width:750px){
-
-  .box2-animation{
-    animation-name: box2;
-    animation-duration: 10s;
-    animation-delay: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-  }
-  @keyframes box2 {
-    0%{
-      right: 0px;
-       bottom: 0px;
-       background-color: gray;
-       rotate: 0deg;
-    } 
-    100%{
-      right: 42%;
-      bottom: 0px;
-      background-color: black;
-      /* rotate: 360deg; */
-    }
-  
-  } 
-  }
-
-@media screen and (min-width:750px){
-  .box2-animation{
-    animation-name: box2;
-    animation-duration: 10s;
-    animation-delay: 3s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-  }
-
-@keyframes box2 {
-  0%{
-     right: 0px;
-     bottom: 0px;
-     background-color: gray;
-     /* rotate: 0deg; */
-  } 
-  100%{
-    right: 83%;
-    bottom: 0px;
-    background-color: black;
-    /* rotate: 360deg; */
-  }
-
-} }
+ 

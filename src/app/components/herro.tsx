@@ -9,8 +9,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 export default function Hero(){
     return(
         <main className="w-full h-full  md:h-[500px] bg-white flex justify-center items-center max-w-screen-2xl mx-auto relative">
-           <div className="box-animation w-[200px] h-7 flex items-center justify-center bg-black absolute top-0 left-0 text-white font-serif ">Personal Portfolio</div>
-           <div className="box2-animation w-[200px] h-7 flex items-center justify-center bg-black absolute bottom-0 right-0 text-white font-serif ">AI Developer</div>
+           
             <div className="w-full md:w-[100%] h-[80%] flex flex-col md:flex-row justify-evenly items-center md:items-start">
                 {/* left side */}
                 <div className="mt-8 mb-5 mb md:mt-0 md:mb-0 relative ">
